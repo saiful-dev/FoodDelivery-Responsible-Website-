@@ -1,0 +1,140 @@
+/* Media quries for responsible design */
+
+/* big tablets to 1200px */
+@media only screen and (max-width: 1200px){
+    .hero-text-box{  
+        width: 100%; 
+        padding: 0 2%; 
+       
+
+    }
+    .row{
+        padding: 0 2%;
+    }
+
+    .hero-text-box h1{
+
+        padding-top: 100px ;
+    }
+
+} 
+
+
+/* small tablets to big tablets: from 481 to 1023 */
+@media only screen and (max-width: 1023px){
+    body{
+        font-size: 18px;
+    }
+    section{
+        padding: 60px 0;
+    }
+    .long-copy{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .steps-box{
+        margin-top: 10px;
+    }
+    .steps-box:last-child{
+        margin: 10px;
+    }
+    .works-step{
+        margin-bottom: 30px;
+    }
+    .works-step:last-of-type{
+        margin-bottom: 50px;
+    }
+    .app-screen{
+        width: 50%;
+        
+
+        
+    }
+
+    .works-step div{
+        width: 30px;
+        height: 30px;
+        font-size: 80%;
+        padding: 15px 0;
+        margin-right: 5px;
+        
+    }
+    .works-step p{
+        font-size: 75%;
+    }
+    .icon-small{
+        width: 15px;
+    }
+    .cities-features{
+        font-size: 90%;
+    }
+     
+
+
+} 
+
+/* small phones: to small tablets */
+@media only screen and (max-width: 767px){
+    body{
+        font-size: 16px;
+    }
+    section{
+        padding: 25px 0;
+    }
+    .row,
+    .hero-text-box{
+        padding: 0 4%;
+    }
+    .col{
+        width: 100%;
+    }
+
+    .app-screen{
+        width: 40%;
+        margin-right: 20%;
+        
+    }
+
+
+    .main-nav{
+        display: none;
+    }
+    .hero-text-box h1{
+        margin-top: 60px;
+        font-size: 18px;
+    }
+
+    .logo{
+        height: 90px;
+        width: auto;
+        margin-top: 20px;
+    
+    }
+    
+
+
+} 
+
+
+/* small phones: from 0 to 480 pixels */
+@media only screen and (max-width: 480px){
+ .main-nav{
+     display: none;
+ }
+ .hero-text-box h1{
+     font-size: 18px;
+ }
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
